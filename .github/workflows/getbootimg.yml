@@ -22,7 +22,7 @@ jobs:
       run: |
         cd ~
         pip install bsdiff4
-        python -m pip install protobuf
+        python -m pip install protobuf==3.20.1
 
     - name: Clean Up Disk Space
       run: |
